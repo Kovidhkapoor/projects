@@ -1,0 +1,116 @@
+.Leftsidebar{
+    background: #edc3e8;/* #ff8787  Left color chng*/;
+    color: white;
+    height: 75vh;
+}
+.Lefttop{
+    padding: 20px;
+}
+.Leftnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Leftnav .logo{
+    max-width: 140px;
+}
+.Leftnav .menu img{
+    max-height: 20px;
+    opacity:0.6 ;
+    cursor: pointer;
+}
+.Leftsearch{
+    background: #002670;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    margin-top: 20px;
+}
+.Leftsearch img{
+    width: 16px;
+}
+.Leftsearch input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 11px;
+}
+.Leftsearch input::placeholder{
+    color: #c8c8c8;
+}
+.Leftlist{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    overflow-y: scroll;
+}
+.Lfriends img{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.Lfriends{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.Lfriends div{
+    display: flex;
+    flex-direction: column;
+}
+.Lfriends span{
+    color: #9f9f9f;
+    font-size: 11px;
+}
+.Lfriends:hover{
+    background-color: #077EFF;
+}
+.Lfriends:hover span{
+    color: white;
+}
+.Leftnav .menu{
+    position: relative;
+    padding: 10px 0px;
+}
+ .menu .sub-menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 130px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: none;
+ }
+ .sub-menu hr{
+    border: none;
+    height: 1px;
+    background: #a4a4a4;
+    margin: 8px 0px;
+ }
+ .sub-menu p{
+    cursor: pointer;
+    font-size: 14px;    
+ }
+ .menu:hover .sub-menu{
+    display: block;
+ }
+ .Lfriends.boder img{
+    border: 3px solid #07fff3;
+ }
+ .Lfriends.boder div span{
+    color: #07fff3;
+ } 
+ @media (max-width:900px) {
+    .Leftsidebar{
+        width: 100%;
+    }
+    
+ }
+ 
